@@ -1,4 +1,4 @@
-# Laravel 6 以 Markdown 格式撰寫文件
+# Laravel 7 以 Markdown 格式撰寫文件
 
 引入 binarytorch 的 larecipe 套件來擴增使用 Markdown 格式撰寫的文件並且看起來不會像是由許多標籤或是格式指令所構成，強調的是它的可讀性。Markdown 是一種輕量級標記式語言， 它有純文字標記的特性，讓編寫的可讀性提高，這是在以前很多電子郵件中就已經有的寫法，而目前也有很多網站都使用來撰寫說明文件。
 
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
