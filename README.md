@@ -1,4 +1,4 @@
-# Laravel 11 以 Markdown 格式撰寫文件
+# Laravel 12 以 Markdown 格式撰寫文件
 
 引入 binarytorch 的 larecipe 套件來擴增使用 Markdown 格式撰寫的文件並且看起來不會像是由許多標籤或是格式指令所構成，強調的是它的可讀性。Markdown 是一種輕量級標記式語言， 它有純文字標記的特性，讓編寫的可讀性提高，這是在以前很多電子郵件中就已經有的寫法，而目前也有很多網站都使用來撰寫說明文件。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/docs` 來進行文件產生。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/ZyHVZRy.png)
+![](https://i.imgur.com/2bsASx5.png)
 > 可以呈現精美的文件
